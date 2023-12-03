@@ -60,19 +60,6 @@ public class ColourTableTest {
         assertFalse(ColourTable.areRGBValuesValid(2600, 3450, 7660));
     }
 
-    //    this test fails : this was the original test I made and used when writing up my report as I did think it was wrong
-//    as it was failing , but it was failing correctly with the message being outputted as there were duplicates being repeatedly added
-//    @Test
-//    @DisplayName("Test exceeding the capacity of ColourTable")
-//    void testExceedCapacity() {
-//        // Add colors up to the capacity
-//        for (int i = 0; i < 8; i++) {
-//            colourTable.add(70, 90, 100);
-//        }
-//
-//        // Attempt to add another color with invalid RGB values, expecting an exception
-//        assertThrows(IllegalArgumentException.class, () -> colourTable.add(256, 256, 257));
-//    }
 
     //    changed what I was adding to show the test passes when unique elements are added
     @Test
@@ -102,6 +89,16 @@ public class ColourTableTest {
         // Now perform the comparison and check if the result is true
         boolean result = colour1.comparison(colour2);
         assertTrue(result);
+    }
+
+    @Test
+    @DisplayName("Test adding duplicate colors")
+    void testAddDuplicateColors() {
+        // Add a color to the colourTable
+        colourTable.add(40, 50, 60);
+
+        // Attempt to add the same color again, which should throw an IllegalStateException
+        assertThrows(IllegalStateException.class, () -> colourTable.add(40, 50, 60));
     }
 
 }

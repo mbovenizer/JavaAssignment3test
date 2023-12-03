@@ -63,4 +63,4 @@ public class ColourTable {
         return this.colorSet.equals(otherColourTable.colorSet);
     }
 
-}
+ }

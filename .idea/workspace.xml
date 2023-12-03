@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff36c80-3bbd-4c4e-b996-668871c55dd3" name="Changes" comment="adding tests to accept if default model RGB and Accept if model not RGB">
+    <list default="true" id="6ff36c80-3bbd-4c4e-b996-668871c55dd3" name="Changes" comment="testing to add duplicate colours">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,35 @@
       <option name="project" value="LOCAL" />
       <updated>1701642645594</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding a test if the colours are exceeding capacity of the colour table">
+      <created>1701642790709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701642790709</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test to see if a comparison can be made">
+      <created>1701642907806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701642907806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="testing to add duplicate colours">
+      <created>1701643399476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701643399476</updated>
+    </task>
+    <task id="LOCAL-00012" summary="testing to add duplicate colours">
+      <created>1701643407634</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701643407634</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +163,9 @@
     <MESSAGE value="adding a getter for getting the number of colours" />
     <MESSAGE value="tested adding colours first and changed to adding and comparing in the same function" />
     <MESSAGE value="adding tests to accept if default model RGB and Accept if model not RGB" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding tests to accept if default model RGB and Accept if model not RGB" />
+    <MESSAGE value="adding a test if the colours are exceeding capacity of the colour table" />
+    <MESSAGE value="test to see if a comparison can be made" />
+    <MESSAGE value="testing to add duplicate colours" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing to add duplicate colours" />
   </component>
 </project>

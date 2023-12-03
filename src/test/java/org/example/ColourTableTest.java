@@ -30,4 +30,20 @@ public class ColourTableTest {
         // Ensure that an IllegalArgumentException is thrown when creating a ColourTable with an invalid capacity
         assertThrows(IllegalArgumentException.class, () -> new ColourTable(10000));
     }
+
+    @Test
+    @DisplayName("Test adding and comparing colours")
+    void testAddAndCompareColours() {
+        // Create two ColourTable instances and add colors to them
+        ColourTable colour1 = new ColourTable(4);
+        colour1.add(40, 50, 60);
+        colour1.add(70, 80, 90);
+        ColourTable colour2 = new ColourTable(4);
+        colour2.add(70, 80, 90);
+        colour2.add(40, 50, 60);
+
+        // Perform a comparison between the two ColourTables and check if the result is true
+        assertTrue(colour1.comparison(colour2));
+    }
+
 }

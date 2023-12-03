@@ -87,4 +87,21 @@ public class ColourTableTest {
         assertThrows(IllegalArgumentException.class, () -> colourTable.add(256, 256, 257));
     }
 
+
+    @Test
+    @DisplayName("Test to check if comparison can be made")
+    void testComparison() {
+        // Initialize two ColourTable instances with the capacity
+        ColourTable colour1 = new ColourTable(8);
+        ColourTable colour2 = new ColourTable(8);
+
+        // Add the same color to both tables
+        colour1.add(40, 50, 60);
+        colour2.add(40, 50, 60);
+
+        // Now perform the comparison and check if the result is true
+        boolean result = colour1.comparison(colour2);
+        assertTrue(result);
+    }
+
 }

@@ -1,7 +1,6 @@
 package org.example;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+    // Initialize ColourTable with a capacity for 8 colors
+    ColourTable colourTable = new ColourTable(8);
 }

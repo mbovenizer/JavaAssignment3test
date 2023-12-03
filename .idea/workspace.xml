@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff36c80-3bbd-4c4e-b996-668871c55dd3" name="Changes" comment="adding a getter for getting the number of colours">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" afterDir="false" />
+    <list default="true" id="6ff36c80-3bbd-4c4e-b996-668871c55dd3" name="Changes" comment="adding tests to accept if default model RGB and Accept if model not RGB">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701641573696</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tested adding colours first and changed to adding and comparing in the same function">
+      <created>1701642512401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701642512401</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adding tests to accept if default model RGB and Accept if model not RGB">
+      <created>1701642645594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701642645594</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +133,8 @@
     <MESSAGE value="Testing if the table satisfies the requirements: set the requirements to be colour table with a capacity for 8 colours and if cheecking if the numcolours is a power of two and within range of 2 - 1024" />
     <MESSAGE value="new test with invalid palette size" />
     <MESSAGE value="adding a getter for getting the number of colours" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a getter for getting the number of colours" />
+    <MESSAGE value="tested adding colours first and changed to adding and comparing in the same function" />
+    <MESSAGE value="adding tests to accept if default model RGB and Accept if model not RGB" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tests to accept if default model RGB and Accept if model not RGB" />
   </component>
 </project>

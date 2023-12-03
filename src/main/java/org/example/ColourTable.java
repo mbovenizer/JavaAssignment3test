@@ -22,6 +22,11 @@ public class ColourTable {
         return (numColors & (numColors - 1)) == 0 && numColors > 1 && numColors < 1025;
     }
 
+    // Get the number of colors allowed in the ColourTable
+    public int getNumColors() {
+        return this.numColors;
+    }
+
 
 
 }

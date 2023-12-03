@@ -46,4 +46,18 @@ public class ColourTableTest {
         assertTrue(colour1.comparison(colour2));
     }
 
+    @Test
+    @DisplayName("Accept if default model is RGB")
+    public void acceptIfDefaultModelIsRGB() {
+        // Check if RGB values within the valid range are accepted
+        assertTrue(ColourTable.areRGBValuesValid(40, 50, 60));
+    }
+
+    @Test
+    @DisplayName("Reject if RGB values are out of range")
+    public void acceptIfModelNotRGB() {
+        // Check if RGB values outside the valid range are rejected
+        assertFalse(ColourTable.areRGBValuesValid(2600, 3450, 7660));
+    }
+
 }

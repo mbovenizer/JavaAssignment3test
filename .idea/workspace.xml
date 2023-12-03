@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff36c80-3bbd-4c4e-b996-668871c55dd3" name="Changes" comment="Testing if the table satisfies the requirements: set the requirements to be colour table with a capacity for 8 colours and if cheecking if the numcolours is a power of two and within range of 2 - 1024" />
+    <list default="true" id="6ff36c80-3bbd-4c4e-b996-668871c55dd3" name="Changes" comment="Testing if the table satisfies the requirements: set the requirements to be colour table with a capacity for 8 colours and if cheecking if the numcolours is a power of two and within range of 2 - 1024">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701640181044</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing if the table satisfies the requirements: set the requirements to be colour table with a capacity for 8 colours and if cheecking if the numcolours is a power of two and within range of 2 - 1024">
+      <created>1701640276467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701640276467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

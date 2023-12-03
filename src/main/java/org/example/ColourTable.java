@@ -21,4 +21,7 @@ public class ColourTable {
         // Check if numColors is a power of two, and within the range 2 to 1024
         return (numColors & (numColors - 1)) == 0 && numColors > 1 && numColors < 1025;
     }
+
+
+
 }

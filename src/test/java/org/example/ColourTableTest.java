@@ -23,4 +23,11 @@ public class ColourTableTest {
         // Check if the ColourTable satisfies specific requirements
         assertTrue(colourTable.satisfiesRequirements());
     }
+
+    @Test
+    @DisplayName("Testing invalid palette size")
+    void testInvalidPaletteSize() {
+        // Ensure that an IllegalArgumentException is thrown when creating a ColourTable with an invalid capacity
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(10000));
+    }
 }

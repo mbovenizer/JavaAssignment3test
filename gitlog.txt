@@ -1,3 +1,7 @@
+//
+For the commits I had ran all my tests forgetting to commit each time so I went back and did
+one at a time and committed in the order in which I would have ran them when making
+
 commit abfef739c7254997059b80d2fd42228b35c76b7f
 Author: mbovenizer <mbovenizer@outlook.ie>
 Date:   Sun Dec 3 22:46:31 2023 +0000

@@ -1,0 +1,96 @@
+commit abfef739c7254997059b80d2fd42228b35c76b7f
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:46:31 2023 +0000
+
+    added a failed test , commented out
+
+commit 6e9458d32bbb14908d571ed18141772cdd14a714
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:44:14 2023 +0000
+
+    added a failed test , commented out
+
+commit 4800de30368ef6e0e099f5106558b511606c3b79
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:43:25 2023 +0000
+
+    testing to add duplicate colours
+
+commit c4a086303ff52e991f49d1cbe7beba9e878950f3
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:43:18 2023 +0000
+
+    testing to add duplicate colours
+
+commit 2f6e935d63f201aa54eed4ed0529b574254aaa20
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:35:06 2023 +0000
+
+    test to see if a comparison can be made
+
+commit 3e00ed9856e6399f5e13ff4485c52fe668f593c0
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:33:07 2023 +0000
+
+    adding a test if the colours are exceeding capacity of the colour table
+
+commit 8e1e92043b78cb57561823ed8a9f0803f192608e
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:30:44 2023 +0000
+
+    adding tests to accept if default model RGB and Accept if model not RGB
+
+commit c4f347e5f61924e734f4ff023327a4ae85ba2d34
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:28:30 2023 +0000
+
+    tested adding colours first and changed to adding and comparing in the same function
+
+commit e64b4411e764d3c99469b51e8dc6b5deccfc0040
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:12:50 2023 +0000
+
+    adding a getter for getting the number of colours
+
+commit 7459dbc7cefdfbf45294fd4c80dc6fe740f44907
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 22:05:13 2023 +0000
+
+    new test with invalid palette size
+
+commit 9f7ad973338f8fb6f05a89e9acec819274e805c5
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 21:51:16 2023 +0000
+
+    Testing if the table satisfies the requirements: set the requirements to be colour table with a capacity for 8 colours and if cheecking if the numcolours is a power of two and within range of 2 - 1024
+
+commit 3caa2c690aaa7a4e312e3b8014d99e484bc94d0a
+Merge: e2a20c7 c9334fe
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 21:49:38 2023 +0000
+
+    Testing if the table satisfies the requirements: set the requirements to be colour table with a capacity for 8 colours and if cheecking if the numcolours is a power of two and within range of 2 - 1024
+
+commit e2a20c745b18d87b855d20ccbecdcc3a87fae826
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 21:28:17 2023 +0000
+
+    Initial project setup with basic Main class structure.
+
+commit c9334fed208524700832ab89ff08718047e1e213
+Author: mbovenizer <92316625+mbovenizer@users.noreply.github.com>
+Date:   Sun Dec 3 21:20:38 2023 +0000
+
+    Initial commit
+
+commit 48b12e43727340ada47ee72e5edffafc255b5ab0
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 21:11:12 2023 +0000
+
+    Inital setup of my project
+
+commit fbbd11b11c65770e70aa6d25de854ec772558b64
+Author: mbovenizer <mbovenizer@outlook.ie>
+Date:   Sun Dec 3 21:11:05 2023 +0000
+
+    Inital setup of my project
